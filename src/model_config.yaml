@@ -1,0 +1,52 @@
+config:
+
+  initial_pool_balance: 1000000
+  initial_poap_balance: 1000
+  n_discussions_per_round: 3
+  reviewers_per_discussion: 3
+  L1_reviewer_fee: 500
+  L2_reviewer_fee: 800
+  L3_reviewer_fee: 1000
+  savepath: "data/"
+  report_columns: 
+    - "round_number"
+    - "grant_number"
+    - "grant_value"
+    - "grant_clarity"
+    - "grant_legitimacy"
+    - "grant_difficulty"
+    - "grant_is_unsafe"
+    - "reviewer_1"
+    - "reviewer_1_social"
+    - "reviewer_1_ability"
+    - "reviewer_1_recognition"
+    - "reviewer_1_engagement"
+    - "reviewer_1_satisfaction"
+    - "reviewer_1_total_paid"
+    - "reviewer_1_trust_level"
+    - "reviewer_1_correct"
+    - "reviewer_2"
+    - "reviewer_2_social"
+    - "reviewer_2_ability"
+    - "reviewer_2_recognition"
+    - "reviewer_2_engagement"
+    - "reviewer_2_satisfaction"
+    - "reviewer_2_total_paid"
+    - "reviewer_2_trust_level"
+    - "reviewer_2_correct"
+    - "reviewer_3"
+    - "reviewer_3_social"
+    - "reviewer_3_ability"
+    - "reviewer_3_recognition"
+    - "reviewer_3_engagement"
+    - "reviewer_3_satisfaction"
+    - "reviewer_3_total_paid"
+    - "reviewer_3_trust_level"
+    - "reviewer_3_correct"
+    - "reviewer_1_score"
+    - "reviewer_2_score"
+    - "reviewer_3_score"
+    - "aggregate_score"
+    - "discussed"
+  
+   
